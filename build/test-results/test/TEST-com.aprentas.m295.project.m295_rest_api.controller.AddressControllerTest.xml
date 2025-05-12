@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aprentas.m295.project.m295_rest_api.controller.AddressControllerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-04-14T12:42:30.708Z" hostname="ATB-WSUEK86" time="0.357">
+  <properties/>
+  <testcase name="testCreateAddress()" classname="com.aprentas.m295.project.m295_rest_api.controller.AddressControllerTest" time="0.303"/>
+  <testcase name="testGetAllAddresses()" classname="com.aprentas.m295.project.m295_rest_api.controller.AddressControllerTest" time="0.02"/>
+  <testcase name="testUpdateAddress()" classname="com.aprentas.m295.project.m295_rest_api.controller.AddressControllerTest" time="0.011"/>
+  <testcase name="testDeleteAddress()" classname="com.aprentas.m295.project.m295_rest_api.controller.AddressControllerTest" time="0.016"/>
+  <system-out><![CDATA[14:42:27.338 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.aprentas.m295.project.m295_rest_api.controller.AddressControllerTest]: AddressControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:42:27.568 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.aprentas.m295.project.m295_rest_api.M295RestApiApplication for test class com.aprentas.m295.project.m295_rest_api.controller.AddressControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2025-04-14T14:42:28.113+02:00  INFO 4232 --- [m295-rest-api] [    Test worker] c.a.m.p.m.c.AddressControllerTest        : Starting AddressControllerTest using Java 21.0.6 with PID 4232 (started by LATB-WSUEK86 in C:\Users\LATB-WSUEK86\gradle-project\m295-rest-api)
+2025-04-14T14:42:28.115+02:00  INFO 4232 --- [m295-rest-api] [    Test worker] c.a.m.p.m.c.AddressControllerTest        : No active profile set, falling back to 1 default profile: "default"
+2025-04-14T14:42:30.648+02:00  INFO 4232 --- [m295-rest-api] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-04-14T14:42:30.648+02:00  INFO 4232 --- [m295-rest-api] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-04-14T14:42:30.655+02:00  INFO 4232 --- [m295-rest-api] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2025-04-14T14:42:30.698+02:00  INFO 4232 --- [m295-rest-api] [    Test worker] c.a.m.p.m.c.AddressControllerTest        : Started AddressControllerTest in 3.03 seconds (process running for 4.5)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\LATB-WSUEK86\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.15.11\a38b16385e867f59a641330f0362ebe742788ed8\byte-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

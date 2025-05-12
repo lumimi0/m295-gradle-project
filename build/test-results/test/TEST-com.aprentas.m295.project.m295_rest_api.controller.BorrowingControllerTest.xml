@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aprentas.m295.project.m295_rest_api.controller.BorrowingControllerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-04-14T12:42:31.688Z" hostname="ATB-WSUEK86" time="0.067">
+  <properties/>
+  <testcase name="testCreateBorrowing()" classname="com.aprentas.m295.project.m295_rest_api.controller.BorrowingControllerTest" time="0.037"/>
+  <testcase name="testGetAllBorrowings()" classname="com.aprentas.m295.project.m295_rest_api.controller.BorrowingControllerTest" time="0.012"/>
+  <testcase name="testDeleteBorrowing()" classname="com.aprentas.m295.project.m295_rest_api.controller.BorrowingControllerTest" time="0.007"/>
+  <testcase name="testExtendBorrowing()" classname="com.aprentas.m295.project.m295_rest_api.controller.BorrowingControllerTest" time="0.008"/>
+  <system-out><![CDATA[2025-04-14T14:42:31.079+02:00  INFO 4232 --- [m295-rest-api] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.aprentas.m295.project.m295_rest_api.controller.BorrowingControllerTest]: BorrowingControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-04-14T14:42:31.101+02:00  INFO 4232 --- [m295-rest-api] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.aprentas.m295.project.m295_rest_api.M295RestApiApplication for test class com.aprentas.m295.project.m295_rest_api.controller.BorrowingControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2025-04-14T14:42:31.144+02:00  INFO 4232 --- [m295-rest-api] [    Test worker] c.a.m.p.m.c.BorrowingControllerTest      : Starting BorrowingControllerTest using Java 21.0.6 with PID 4232 (started by LATB-WSUEK86 in C:\Users\LATB-WSUEK86\gradle-project\m295-rest-api)
+2025-04-14T14:42:31.144+02:00  INFO 4232 --- [m295-rest-api] [    Test worker] c.a.m.p.m.c.BorrowingControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-04-14T14:42:31.672+02:00  INFO 4232 --- [m295-rest-api] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-04-14T14:42:31.672+02:00  INFO 4232 --- [m295-rest-api] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-04-14T14:42:31.673+02:00  INFO 4232 --- [m295-rest-api] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-04-14T14:42:31.685+02:00  INFO 4232 --- [m295-rest-api] [    Test worker] c.a.m.p.m.c.BorrowingControllerTest      : Started BorrowingControllerTest in 0.578 seconds (process running for 5.488)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
